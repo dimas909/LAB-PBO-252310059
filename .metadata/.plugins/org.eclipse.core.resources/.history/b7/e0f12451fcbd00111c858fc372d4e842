@@ -1,0 +1,33 @@
+package praktikum1;
+
+package praktikum_1;
+
+public class Introduction {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	
+		// variabel
+		int angka1 = 10;
+		int angka2 = 20;
+		
+		// tipe data
+		String nama = "Jaden";
+		
+		// operator
+		int hasilTambah = angka1 + angka2; // pertambahan
+		hasilTambah++; // increment
+		
+		// operator perbandingan
+		boolean pembanding = angka1 > angka2;
+		boolean tesNama = nama == "wildan";
+		
+		boolean kondisional = (true || false) && (true && true);
+		
+		//operator assignment
+		angka1 *= angka2;
+		 Dog mydog = new Dog();
+		   mydog.hungry();
+		  String name = "Abo";
+		  mydog.puppyName(name);
+	}	
+}
